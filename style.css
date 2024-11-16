@@ -1,0 +1,31 @@
+/* locomotive takes perfect structure where have a parent div which is main and all pages are children. note that we don't use height and width in parent 
+    and everypage take 100% of width and 100vh height.
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    width:100%;
+    height:100%
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #fad5d5;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #faeece;
+}
+#page3{
+    width: 100%;
+    height: 100vh;
+    background-color: #d7f8cd;
+}
